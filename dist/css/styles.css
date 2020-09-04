@@ -6719,7 +6719,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-    background-color: #bd5d38 !important;
+    background-color: #1D58CE !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -10444,7 +10444,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-    color: #bd5d38 !important;
+    color: #1D58CE !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -10693,7 +10693,7 @@ p.lead {
 }
 
 #sideNav .navbar-toggler:focus {
-    outline-color: #d48a6e;
+    outline-color: lightseagreen;
 }
 
 @media (min-width: 992px) {
@@ -10760,7 +10760,7 @@ p.lead {
 }
 
 .social-icons .social-icon:hover {
-    background-color: #bd5d38;
+    background-color: #1D58CE;
 }
 
 .dev-icons {
