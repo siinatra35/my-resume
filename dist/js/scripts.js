@@ -41,6 +41,7 @@
     });
 })(jQuery); // End of use strict
 
+
 //dark and light mode option
 const chk = document.getElementById('chk');
 
