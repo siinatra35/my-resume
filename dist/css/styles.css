@@ -84,6 +84,7 @@ body {
     color: #212529;
     text-align: left;
     background-color: #fff;
+    padding: 0px;
 }
 
 
@@ -280,6 +281,7 @@ figure {
 img {
     vertical-align: middle;
     border-style: none;
+    font-size: 3px;
 }
 
 svg {
