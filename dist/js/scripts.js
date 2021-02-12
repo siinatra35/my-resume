@@ -10,6 +10,7 @@
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
         if (
             location.pathname.replace(/^\//, "") ===
+
             this.pathname.replace(/^\//, "") &&
             location.hostname == this.hostname
         ) {
@@ -43,14 +44,24 @@
 
 //dark and light mode option
 const chk = document.getElementById('chk');
+const clr = document.getElementById('p1')
 
+
+//---------@TODO create a color change listener-----------//
 chk.addEventListener('change', () => {
+
     document.body.classList.toggle('dark');
+
+
 });
 
+// document.getElementById('change').onclick = changeColor;
+
+// function changeColor() {
+//     document.body.style.color == "purple"
 
 
-const tst = document.getElementById('Java')
+// }
 
 
-console.log(tst)
+//----------------End--------------------//
