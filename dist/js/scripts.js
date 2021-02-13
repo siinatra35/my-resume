@@ -49,19 +49,5 @@ const clr = document.getElementById('p1')
 
 //---------@TODO create a color change listener-----------//
 chk.addEventListener('change', () => {
-
     document.body.classList.toggle('dark');
-
-
 });
-
-// document.getElementById('change').onclick = changeColor;
-
-// function changeColor() {
-//     document.body.style.color == "purple"
-
-
-// }
-
-
-//----------------End--------------------//
